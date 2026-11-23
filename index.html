@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deebak Software — Billing for every shop</title>
+<meta name="description" content="Deebak Software: scan-to-stock, scan-to-bill, GST receipts. Built for Indian shops — textiles, sweets, grocery and more.">
+<meta name="theme-color" content="#F7F3EC">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app" id="app">
+  <aside class="side" id="side"></aside>
+  <div class="main-wrap">
+    <header class="top" id="top"></header>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+  <nav class="tabbar" id="tabbar" aria-label="Main"></nav>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div id="modal-root"></div>
+<div id="print-root" aria-hidden="true"></div>
+
+<script src="vendor/qrcode.min.js"></script>
+<script src="vendor/jsQR.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
